@@ -1,0 +1,79 @@
+<<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Первая страница</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+	<style>
+		.page
+		{
+			background-image: linear-gradient(90deg, white, black), url(http://marketing-magazine.ru/i/verstka-sjta.jpg);
+			background-repeat: repeat;
+			background-blend-mode:  overlay;
+		}
+		.InfoGroup
+		{
+			margin-left: 100px;
+			margin-right: 300px;
+			font-weight: bold;
+			font-size: 150%
+		}
+		.InfoGroupHeader 
+		{
+			font-size: 200%;
+			font-weight: bolder;
+			color: blue;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+		<a  class="btn btn-primary" href="#top">Наверх</a>
+		<a class="btn btn-primary" href="#news">Новости</a>
+		<a class="btn btn-primary" href="#AboutMe">Обо мне</a>	
+		<a class="btn btn-primary" href="#tasks">Задачи</a>	
+		<a class="btn btn-primary" href="#contacts">Контакты</a>
+		<h1>  Моя страница о web разработке</h1>
+		</nav>
+	</header>
+	<div class="page">
+	<div id="top">
+		<br><br><br><br><!--меню наползает на текст-->
+	</div>
+	<!------------------------------------------------------->
+	<div id="news" class="InfoGroup">
+		<p class="InfoGroupHeader">Новости</p>
+		<ul>
+			<li>04.02.18 Создана страница</li>
+			<li>06.02.18 Делаю меню со ссылками на разделы</li>
+			<li>06.02.18 Добавил фон. Картинка не моя, взял на Яндексе в картинках</li>
+		</ul>
+	</div>
+	<!------------------------------------------------------->
+	<div id="AboutMe" class="InfoGroup">
+		<p class="InfoGroupHeader">Обо мне</p>
+		лалалалала
+	</div>
+		<!------------------------------------------------------->
+	<div id="tasks" class="InfoGroup">
+	<p class="InfoGroupHeader">Задачи</p>
+		<ol>
+			<li>Сделать одностраничный сайт для тренировки работы с html5, css, bootstrap</li>
+			<li>Меню закрывает заголок раздела. Как исправить?</li>
+			<li>Надо еще фотку в контакты, и форму наверно.
+		</ol>
+	</div>
+	<!------------------------------------------------------->
+	<div id="contacts" class="InfoGroup">
+	<p class="InfoGroupHeader">Контакты</p>
+	Аааа 8(999)1234567 aaaaaaa@aa.ru
+	</div>
+	</div>
+	<!------------------------------------------------------->
+	<footer>
+	<p align="right" style="color: white; background-color: black;">2019   @Aaaaa
+	</footer>
+	
+</body>
+</html>
